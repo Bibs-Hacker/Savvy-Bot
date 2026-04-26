@@ -1,1 +1,7 @@
-python bot.py
+services:
+  - type: web
+    name: savvy-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python bot.py"
